@@ -1,7 +1,7 @@
 # Online Code Editor
 
 ## What it does
-##### It's an Online Code-Editor for HTML, CSS, JS code snippets with the functionality similar to that of [codepen.io][https://codepen.io/] . To save a user's work, localStorage is used.
+##### It's an Online Code-Editor for HTML, CSS, JS code snippets with the functionality similar to that of [<a href="https://codepen.io/">codepen.io</a>] . To save a user's work, localStorage is used.
 
 ## How I built it
 ##### The Site user interface has been built using HTML, CSS.
