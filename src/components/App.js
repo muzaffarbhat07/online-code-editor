@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet';
 import useLocalStorage from '../hooks/useLocalStorage';
 import Editor from './Editor';
 
@@ -24,6 +25,9 @@ function App() {
   
   return (
     <>
+      <Helmet>
+        <title>Online Code Editor</title>
+      </Helmet>
       <div className="pane top-pane">
         <Editor
           language="xml"
